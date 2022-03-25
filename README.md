@@ -3,12 +3,14 @@
 ### {i-J0j0F4N48ver/BojjiRoK}
 <img width="350" alt="image" src="https://user-images.githubusercontent.com/91453728/158024176-dc42dc6a-4466-4856-9d4a-fe25d3336dd6.png">
 
-Here is the V7.1 of my netflix clone project by using Tailwind and JS, I took so much time to have a good visual ^^
+Done here is the V7.1 of my netflix clone project by using Tailwind and JS, I took so much time to have a good visual ^^
 
 ## Correction / ajustement and adding
- * Adding effect hover (zoom) image in the "Mylist" section
+* Added effect hover (zoom) image in the "Mylist" section
 
-* Adding a video when hovering over an image in the "Mylist" section
+* Added a video when hovering over an image in the "Mylist" section
+
+* Added the last 4 sections with randomized images
 
 * Fixed and adjust different alignment/space of the margin of differents sections 
 
@@ -20,7 +22,7 @@ Here is the V7.1 of my netflix clone project by using Tailwind and JS, I took so
 
  
 
- *If not pray for Ukrane*
+*If not pray for Ukrane*
 
 Skeeven Men
 
