@@ -12,6 +12,8 @@ Done here is the V7.1 of my netflix clone project by using Tailwind and JS, I to
 
 * Added the last 4 sections with randomized images
 
+* Added transtion delay hover header
+
 * Fixed and adjust different alignment/space of the margin of differents sections 
 
 * Fixed hover effects on left and right arrows (now it work at the same time)
