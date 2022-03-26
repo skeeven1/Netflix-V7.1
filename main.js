@@ -47,6 +47,8 @@ function RandomImg1() {
     var randomNum5 = Math.floor(Math.random() * more_japan_animeImg.length);
     document.getElementById("more_japan_anime" + i.toString()).src = more_japan_animeImg[randomNum5];
 
+    
+
 }
 }
 
@@ -59,7 +61,7 @@ var jojoImg = new Array(
   "assets/img/images main/jojo p6.jpg",
 );
 
-var animeImg = new Array(
+  var animeImg = new Array(
 
   "assets/img/images main/one piece.jpg",
   "assets/img/images main/akame.jpg",
@@ -70,7 +72,7 @@ var animeImg = new Array(
   
   );
 
-var japan_series = new Array(
+  var japan_series = new Array(
     
     "assets/img/images main/tg.png",
     "assets/img/images main/ds.jpg",
@@ -80,7 +82,7 @@ var japan_series = new Array(
     "assets/img/images main/jjkm.jpg",
   )
 
-var more_japan_seriesImg = new Array(
+  var more_japan_seriesImg = new Array(
 
     "assets/img/images main/redo.png",
     "assets/img/images main/hanako.jpg",
@@ -91,7 +93,7 @@ var more_japan_seriesImg = new Array(
     
     );
   
-var more_japan_animeImg = new Array(
+  var more_japan_animeImg = new Array(
 
       "assets/img/images main/haikyuu.jpg",
       "assets/img/images main/parasyte.jpg",
@@ -130,17 +132,7 @@ let variable_inverse_video = document.getElementById(video_hover_none)
 variable_inverse_video.classList.add('opacity-0')
 variable_inverse_video.classList.remove('opacity-100')
 }
-
-$(document).ready(function() {
-  $(".myvideos").on("mouseover", function(event) {
-    this.play();
-
-  }).on('mouseout', function(event) {
-    this.pause();
-
-  });
-})
-     
+    
 
 
 
@@ -153,4 +145,4 @@ $(document).ready(function() {
 
 
 window.onscroll = function() {hiddenHeader()};
-window.onload = RandomImg1; 
+window.onload = RandomImg1;
