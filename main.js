@@ -21,7 +21,7 @@ function leftScroll(carousel, leftArrow) {
 }
 
 function hiddenHeader() {
-  if (document.body.scrollTop || document.documentElement.scrollTop > 990) {
+  if (document.body.scrollTop || document.documentElement.scrollTop > 400) {
     document.getElementById("black_header").style.backgroundColor = "black";
   } else {
     document.getElementById("black_header").style.backgroundColor = "transparent";
@@ -31,7 +31,7 @@ function hiddenHeader() {
 function RandomImg1() {
 
 
-  for (let i = 1; i < 10; i++) {
+  for (let i = 1; i < 100; i++) {
     var randomNum = Math.floor(Math.random() * jojoImg.length);
     document.getElementById("jojo" + i.toString()).src = jojoImg[randomNum];
     
@@ -59,6 +59,9 @@ var jojoImg = new Array(
   "assets/img/images main/jojo p4.png",
   "assets/img/images main/jojo p5.webp",
   "assets/img/images main/jojo p6.jpg",
+  "assets/img/images main/jojop7.webp",
+  "assets/img/images main/jojop8.jpg",
+  
 );
 
   var animeImg = new Array(
