@@ -72,8 +72,8 @@
                     
                     <nav class="hidden xl:flex justify-center items-center space-x-8 ml-auto text-base font-semibold">
                         <button><i class="fas fa-search text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i></button>
-                        <button><i class="fas fa-gift text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i></button>
-                        <button><i class="fas fa-bell text-xl cursor-pointer focus:outline-none hover:text-gray-400"></i>
+                        <button><i class="fas fa-gift text-xl cursor-pointer focus:outline-none hover:text-yellow-400"></i></button>
+                        <button><i class="fas fa-bell text-xl cursor-pointer focus:outline-none hover:text-cyan-400"></i>
                             <span class="space-y-2">
                                 
                                 <span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500 animate-ping"></span>
@@ -81,7 +81,7 @@
                         </button>
                         
                         <button class="flex items-center focus:outline-none">
-                            <img src="assets/img/avatar.gif" alt="Avatar" class="w-10 h-08 rounded"/>
+                            <img src="assets/img/avatar.gif" alt="Avatar" class="w-14 rounded"/>
                             <svg class="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                             </svg>
@@ -96,6 +96,7 @@
 
             
             <section class="h-screen z-0">
+                
                 
                 
 
@@ -159,22 +160,22 @@
             
              
                     
-                    <div class="group">
+                    <div class="group ">
                         
-                        <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-4 group-hover:opacity-100 w-32 h-[179px] left-0 ">
+                        <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-7 group-hover:opacity-100 w-32 h-[179px] left-0 transition duration-[480ms]  ">
                     <div class="absolute left-0 z-30 cursor-pointer leftArrow " onclick="leftScroll('.carousel', '.leftArrow')">
                         <button class=" p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                         
                     </div>
                     
                      </div>
-                     <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-4 group-hover:opacity-100 w-32 h-[179px] ">
+                     <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-7 group-hover:opacity-100 w-32 h-[179px] transition duration-[480ms] ">
                         <div class="absolute right-0 cursor-pointer rightArrow" onclick="rightScroll('.carousel', '.rightArrow')">
                             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                         </div>   
                         </div>
                         
-                        <div class="pt-4 h-[218px] w-[1993px] flex space-x-3 ">
+                        <div class="pt-7 h-[230px] w-[1993px] flex space-x-3 ">
                         <a class="ml-10" onmouseover='video_hover_mylist("img_hover","video_hover")' onmouseout='video_hover_mylist2("img_hover","video_hover")'>
                         <img src="assets/img/images main/erased.png" class="cursor-pointer rounded-lg hover:scale-125" id="img_hover">
                         <video autoplay muted src="video_mylist/erased.mp4" class="mt-[-180px] rounded-lg opacity-0 hover:scale-125  transition duration-[260ms]" id="video_hover"></video>
@@ -219,14 +220,14 @@
         <section class="mx-12 space-y-2 carousel overflow-x-scroll overflow-y-hidden scroll-smooth mb-6 no-scrollbar carousel2 rightArrow2">
             <div class="group">
                         
-                <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] left-0 ">
+                <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] left-0 transition duration-[480ms] ">
             <div class="absolute left-0 z-30 cursor-pointer leftArrow " onclick="leftScroll('.carousel2', '.leftArrow2')">
                 <button class=" p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                 
             </div>
             
              </div>
-             <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] ">
+             <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] transition duration-[480ms] ">
                 <div class="absolute right-0 cursor-pointer rightArrow" onclick="rightScroll('.carousel2', '.rightArrow2')">
                     <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                 </div>   
@@ -266,14 +267,14 @@
             
             <div class="group">
                         
-                <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] left-0 ">
+                <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] left-0 transition duration-[480ms] ">
             <div class="absolute left-0 z-30 cursor-pointer leftArrow " onclick="leftScroll('.carousel3', '.leftArrow3')">
                 <button class=" p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                 
             </div>
             
              </div>
-             <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] ">
+             <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[179px] transition duration-[480ms] ">
                 <div class="absolute right-0 cursor-pointer rightArrow" onclick="rightScroll('.carousel3', '.rightArrow3')">
                     <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                 </div>   
@@ -307,14 +308,14 @@
                 
                     <div class="group">
                         
-                        <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[187px] left-0 ">
+                        <div class="bg-gradient-to-r from-black absolute text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[187px] left-0 transition duration-[480ms] ">
                     <div class="absolute left-0 z-30 cursor-pointer leftArrow " onclick="leftScroll('.carousel4', '.leftArrow4')">
                         <button class=" p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                         
                     </div>
                     
                      </div>
-                     <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[187px] ">
+                     <div class="bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 mt-6 group-hover:opacity-100 w-32 h-[187px] transition duration-[480ms] ">
                         <div class="absolute right-0 cursor-pointer rightArrow" onclick="rightScroll('.carousel4', '.rightArrow4')">
                             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                         </div>   
@@ -355,7 +356,7 @@
                 
                 
                     
-                <div class="space-x-3 space-y-4 mx-9 mt-6 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7">
+                <div class="space-x-3 space-y-4 mx-9 mt-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7">
                     
                     <div class="cursor-pointer relative z-30 ml-3 mt-4">
                         <a href="#"><img src="assets/img/images main/giorno_gif.gif" alt="giorno" class="rounded-lg w-56 h-24"></a>
@@ -381,7 +382,7 @@
         
                     <div class="cursor-pointer relative z-30 ml-1">
                         <a href="#"><img src="assets/img/images main/jotaro.gif" alt="jotaro" class="rounded-lg w-56 h-24"></a>
-                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-gray-700 hover:from-gray-500 rounded-lg w-32 ">
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-gray-700 hover:from-gray-400 rounded-lg w-32 ">
                                 <span class="font-bold text-white text-lg">Jotaro<span>
                             </div>
                         </div>
@@ -424,7 +425,7 @@
         
                     <div class="cursor-pointer relative z-30 ml-1">
                         <a href="#"><img src="assets/img/images main/zawarudo.gif" alt="dio" class="rounded-lg w-56 h-24"></a>
-                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-amber-500 hover:from-amber-260 rounded-lg w-32 ">
+                        <div class=" pt-9 absolute inset-0 px-6 bg-gradient-to-r from-amber-500 hover:from-amber-200 rounded-lg w-32 ">
                                 <span class="font-bold text-white text-lg">DIO<span>
                             </div>
                         </div>
@@ -462,7 +463,7 @@
                 </section>  
 
         <!--Netflix Originals Section--> 
-        <h1 class="text-white text-2xl font-bold mt-12 ml-12">Netflix Originals</h1>        
+        <h1 class="text-white text-2xl font-bold mb-4 mt-12 ml-12">Netflix Originals</h1>        
         <section class="mx-12 space-y-2 carousel5 leftArrow5 overflow-x-scroll no-scrollbar scroll-smooth">
             
             
@@ -470,14 +471,14 @@
                 
                 <div class="group">
                         
-                    <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[515px] left-0 ">
+                    <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[515px] left-0 transition duration-[480ms] ">
                 <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel5', '.leftArrow5')">
                     <button class=" p-4 h-[450px] mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                 </div>
                  </div>
                  <div class="group">
                     
-                        <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[492px]">
+                        <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[492px] transition duration-[480ms]">
                     <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel5', '.rightArrow5')">
                         <button class="p-4 h-[450px] mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                     </div>
@@ -517,14 +518,14 @@
                 
                 <div class="group">
                         
-                    <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[240px] left-0 ">
+                    <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[240px] left-0 transition duration-[480ms] ">
                 <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel6', '.leftArrow6')">
                     <button class=" p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
                 </div>
                  </div>
                  
                     
-                            <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[240px]">
+                            <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[240px] transition duration-[480ms]">
                         <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel6', '.rightArrow6')">
                             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
                         </div>
@@ -534,7 +535,7 @@
                 
             
             
-                <div class="flex space-x-2 w-max flex h-60">
+                <div class="flex space-x-2 w-max h-60">
                     
                     
                         <img src="assets/img/images main/numbers/thumbnails_top_1.png" alt="">
@@ -587,14 +588,14 @@
             
             <div class="group">
                         
-        <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[215px] left-0 ">
+        <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[215px] left-0 transition duration-[480ms] ">
     <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel7', '.leftArrow7')">
         <button class=" p-4 h-56 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
     </div>
      </div> 
      <div class="group">
         
-            <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[195px]">
+            <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl opacity-0 group-hover:opacity-100 w-48 h-[195px] transition duration-[480ms]">
         <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel7', '.rightArrow7')">
             <button class="p-4 h-52 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
         </div>
@@ -628,6 +629,9 @@
                     
                     <img id="jojo6" src="assets/img/images main/jojo p6.jpg" alt="jojop6" class="rounded-lg w-80 cursor-pointer">
                     
+                    <img id="jojo7" src="assets/img/images main/jojop7.webp" alt="jojop6" class="rounded-lg w-80 cursor-pointer">
+
+                    <img id="jojo8" src="assets/img/images main/jojop8.jpg" alt="jojop6" class="rounded-lg w-80 cursor-pointer">
             </div>
             </div>
         
@@ -641,12 +645,12 @@
         
         
             <div class="group">
-                <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[200px] left-0 ">
+                <div class=" bg-gradient-to-r from-black absolute text-3xl opacity-0 group-hover:opacity-100 w-48 h-[200px] left-0 transition duration-[480ms] ">
         <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel8', '.leftArrow8')">
             <button class=" p-4 h-52 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
         </div>
          </div>
-         <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[180px]">
+         <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[180px] transition duration-[480ms]">
             <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel8', '.rightArrow8')">
                 <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
             </div>
@@ -689,12 +693,12 @@
         
 
         <div class="group">
-            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[196px] left-0 ">
+            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[196px] left-0 transition duration-[480ms] ">
     <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel9', '.leftArrow9')">
         <button class=" p-4 h-52 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
     </div>
      </div>
-     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[196px]">
+     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[196px] transition duration-[480ms]">
         <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel9', '.rightArrow9')">
             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
         </div>
@@ -730,12 +734,12 @@
         
 
         <div class="group">
-            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] left-0 ">
+            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] left-0 transition duration-[480ms] ">
     <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel10', '.leftArrow10')">
         <button class=" p-4 h-52 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
     </div>
      </div>
-     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px]">
+     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] transition duration-[480ms]">
         <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel10', '.rightArrow10')">
             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
         </div>
@@ -770,12 +774,12 @@
     <section class="mx-12 space-y-2 overflow-x-scroll no-scrollbar scroll-smooth carousel11 leftArrow11">
         
         <div class="group">
-            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] left-0 ">
+            <div class=" bg-gradient-to-r from-black absolute text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] left-0 transition duration-[480ms] ">
     <div class="absolute left-0 z-30 cursor-pointer  "onclick="leftScroll('.carousel11', '.leftArrow11')">
         <button class=" p-4 h-52 mr-2 focus:outline-none"><i class="fas fa-angle-left text-white text-4xl"></i></button>
     </div>
      </div>
-     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px]">
+     <div class=" bg-gradient-to-l from-black absolute right-0 text-3xl mt-2 opacity-0 group-hover:opacity-100 w-48 h-[193px] transition duration-[480ms]">
         <div class="absolute right-0 cursor-pointer" onclick="rightScroll('.carousel11', '.rightArrow11')">
             <button class="p-4 h-48 mr-2 focus:outline-none"><i class="fas fa-angle-right text-white text-4xl"></i></button>
         </div>
